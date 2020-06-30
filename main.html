@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">#
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+<link rel="stylesheet" href="main.css">
+    <title>Random Sentence Generator</title>
+</head>
+<body>
+    <!--Start Page container-->
+<div class="container">
+   <div class="row">
+     <div class="col-md-12">
+         <h1>Random Quote Generator</h1>
+         <hr>
+        </div> 
+    </div>
+   <div class="row">
+       <div class="col-md-12 my-auto ">
+          <div class="quote-box " id="quote">
+             
+            
+
+          </div>
+          <ul class="list-inline">
+            
+                <h2 class=" col-md-12 text-align-center">Choose number of Quotes and Type</h2>
+                <label >Types of Quotes : </label>
+                <select   id="quote_type" class="subject" name="subject" title="choice"  >
+                    <option  value="war">War</option>
+                    <option value="peace">Peace</option>
+        
+                </select>
+                <label for="number">Number of Quotes : </label>
+                <select class="quote_number" name="quote_number" id="quote_number">
+                    <option >1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            
+        
+              <li><a href="#"  id="btn"  class=" btn btn-primary btn-lg get-quote "><i class="fa fa-quote-left fa-fw"></i>Get Quote</a></li>
+              <li><a href="#"  id="btn2"  onclick="reset()" class=" btn btn-primary btn-lg reset "><i class="fa fa-reset fa-fw"></i>Reset</a></li>
+             </ul>
+       </div>
+     
+<!--End page container-->
+
+ <!-- <script src="main.js"></script>   -->
+  <script src="main2.js"></script>
+</body>
+</html>
